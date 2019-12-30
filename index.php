@@ -5,46 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CuoiKy</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 </head>
 <body>
   <div id="wrapper" style="background-color:white;" >
     <br>
-    <header>
-       <div class="container">
-           <div class="row">
-            <div class="col-md-6">
-                <div class="header">
-                   <div class="logo">
-                       <img src="../img/logo.png">
-                   </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="header_right">
-                      <div class="top nav">
-                          <a class="item-nav" href="#">(+)</a>
-                          <a  class="item-nav" href="../html/login.html" >Login</a>
-                          <a   class="item-nav" href="#">Register</a>
-                          <a  class="item-nav"><img src="../img/vi.jpg"></a>
-                          <a  class="item-nav"><img src="../img/en.jpg"></a>
-                          
-                          <div class="Search">
+    <?php
+      include "header.php";
 
-                              <form>
-                                  <input type="text" placeholder="Tìm kiếm">
-                                  <input type="submit" value="Tìm">
-                              </form>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-           </div>
-           
-          
-       </div>
-    </header>
+      
+
+    ?>
     <br>
     <main>
         <div class="container">
@@ -56,13 +28,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="../img/nhanco.png" class="d-block w-100" alt="...">
+                    <img src="./img/nhanco.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="../img/daihoi.png" class="d-block w-100" alt="...">
+                    <img src="./img/daihoi.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="../img/dangbo1.png" class="d-block w-100" alt="...">
+                    <img src="./img/dangbo1.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,7 +51,7 @@
                 <div class="row">
                   <div class="col-md-4">
                       <div class="card">
-                       <img class="card-img-top" src="../img/0K4A9179.jpg" alt="">
+                       <img class="card-img-top" src="./img/0K4A9179.jpg" alt="">
                        <div class="card- body">
                         <h4 class="card-title">Sinh viên Trường Đại học Thủy lợi đồng hành cùng chuỗi hoạt động tại ngày hội "Sinh viên 5 tốt"</h4>
                         <p class="card-text">(TLU) - Hôm nay (21/12), tại Trường Đại học Thủy lợi, Thành đoàn - Hội Sinh viên thành phố Hà Nội đã tổ chức khai mạc chuỗi ngày hội "Sinh viên 5 tốt" -
@@ -90,7 +62,7 @@
                   </div>
                   <div class="col-md-4">
                     <div class="card">
-                     <img class="card-img-top" src="../img/0K4A9094.jpg" alt="">
+                     <img class="card-img-top" src="./img/0K4A9094.jpg" alt="">
                      <div class="card- body">
                       <h4 class="card-title">Trường Đại học Thủy lợi đón nhận tình cảm của cựu sinh viên tỉnh Thái Nguyên</h4>
                       <p class="card-text">   (TLU) - Sáng nay (20/12), tại P225/A2 Trường Đại học Thủy lợi có buổi tiếp đại diện Ban liên lạc cựu sinh viên tỉnh Thái Nguyên và đón nhận tình cảm                 
@@ -101,7 +73,7 @@
                   </div>
                   <div class="col-md-4">
                     <div class="card">
-                     <img class="card-img-top" src="../img/image005.png" alt="">
+                     <img class="card-img-top" src="./img/image005.png" alt="">
                      <div class="card- body">
                       <h4 class="card-title">Hà Nội, Nam Định dẫn đầu về số thí sinh nhập học vào Trường ĐHTL năm 2019</h4>
                       <p class="card-text">(TLU) – Theo số liệu báo cáo công tác quảng bá tuyển sinh năm 2019, với hơn 1.300 sinh viên đến từ Hà Nội, Nam Định, đây tiếp tục trở thành 2 tỉnh</p>
@@ -115,31 +87,14 @@
         </div>
     </main>
     <br>
-    <footer >
-      <div class="container myfooter" style="background-color: blue;"  >
-       <div class="row row2">
-        <div class="col-md-6">
-          <h4 class="card-title">TRƯỜNG ĐẠI HỌC THỦY LỢI</h4>
-          <h4 class="card-title"  >Địa chỉ : 175 TÂY SƠN, ĐỐNG ĐA, HÀ NỘI.</h4>
-          <p class="card-text">Điện thoại: (024) 3852 2201 - Fax: (024) 3563 3351</p>
-          <p class="card-text">Email: phonghcth@tlu.edu.vn</p>
-          
-        </div>
-        <div class="col-md-6">
-         <div class="card1">
-          <h4 class="chien"  >TRƯỜNG ĐẠI HỌC THỦY LỢI - CƠ SỞ 2</h4>
-          <h4 class="chien-new">Phường An Thạnh - TX Thuận An - Tỉnh Bình Dương</h4>
-           <p class="pp" >Điện thoại: (84).650.3748 620</p>  
-           <p class="oo" >Fax:(84).650.3833 489</p>              
-        </div>
-       </div>
-       </div>
-      </div>
-    </footer>
+    <?php
+       include "footer.php";
+
+     ?>
     <br>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="../js/bootstrap.min.js"></script>  
+  <script src="./js/bootstrap.min.js"></script>  
 </body>
 </html>
