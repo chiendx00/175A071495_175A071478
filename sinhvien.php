@@ -50,9 +50,10 @@
               </td>
             <td width="140">
             <select name="học phần">
-              <option>Tổng quan về BM & ATTT</option>
-              <option>Mã khóa công khai</option>
-              <option>Tấn công DDOS</option>
+              <option>Lập Trình-Th1</option>
+              <option>ket Cau Sat-CT1</option>
+              <option>Tai chính-TC1</option>
+              <option>Mac-Lenin-all</option>
               </select>       
             </td>
             </tr>

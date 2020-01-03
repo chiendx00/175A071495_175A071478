@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Điểm danh sinh viên</title>
 </head>
 <body>
 <div>
@@ -13,60 +13,55 @@
             <div>
             <table>
             <tr>
-              <td width="120"><strong>
-                <label>Chương trình:</label>
-              </strong> </td>
-              <td width="140">
-            <select name="chuongtrinh_diemdanh">
-                <option>CCNA</option>
-                <option>CCNA Security</option>
-                <option>Linux</option>
-                <option>Exchange</option>
-                <option>CCNP hoặc Module</option>
-                <option>MCSA hoặc Exam</option>
-                <option>MCSE hoặc Exam</option>
-                <option>Chương trình khác</option>
-              </select>              </td>
-              <td width="100"></td>
-              <td width="140">
-                <strong>
-                <label>Ngày điểm danh:</label>
-                </strong> </td>
-              <td width="140">
-              <input type="text" name="ngaydiemdanh" value="05/09/2009"/>              </td>
-            </tr>
-            <tr>
-              <td width="140"><strong>
-                <label>Lớp học:</label>
-              </strong> </td>
-              <td width="140">
-            <select name="lophoc_diemdanh">
-              <option>CCNA0809A</option>
-              <option>CCNA0809B</option>
-              <option>CCNA0809C</option>
-              </select>              </td>
-              <td width="120"></td>
               <td width="120">
                 <strong>
-                <label>Môn học:</label>
-                </strong> </td>
+                   <label>Ngành học:</label>
+                </strong> 
+              </td>
               <td width="140">
-              <select name="monhoc_diemdanh">
-              <option>Mạng căn bản</option>
-              <option>Mạng nâng cao</option>
-              <option>Bảo mật, an toàn thông tin</option>
-              </select>              
+                <select name="chuongtrinh_diemdanh">
+                   <option>CNTT</option>
+                   <option>Cong Trinh</option>
+                   <option>Kinh te</option>
+                   <option>Chinh tri</option>
+                </select>
+              </td>
+              <td width="100">
+              </td>
+              <td width="140">
+                <strong>
+                  <label>Ngày điểm danh:</label>
+                </strong>
+              </td>
+              <td width="140">
+                 <input type="date" name="ngaydiemdanh" value="05/09/2009"/>       
+              </td>
+            </tr>
+            <tr>
+              <td width="140">
+              <strong>
+                <label>Môn học:</label>
+              </strong>
+               </td>
+              <td width="140">
+                <select name="Mon hoc">
+                  <option>Lap Trinh</option>
+                  <option>Ket Cau Sat</option>
+                  <option>Tai Chính</option>
+                  <option>mac-lenin</option>
+                </select>             
               </td>
             </tr>
             <tr>
             <td width="120">
-            <label><strong>Bài học</strong></label>
+            <label><strong>Tên học phần </strong></label>
             </td>
             <td width="140">
             <select name="baihoc_diemdanh">
-              <option>Tổng quan về BM & ATTT</option>
-              <option>Mã khóa công khai</option>
-              <option>Tấn công DDOS</option>
+              <option>lap Trinh-Th1</option>
+              <option>Ket Cau sat-CT1</option>
+              <option>Tai Chính-TC1</option>
+              <option>Mac-lenin-all</option>
               </select>       
             </td>
             </tr>
@@ -76,8 +71,9 @@
             <table class="list-course" bgcolor="#FFFFFF" width="725">
                 <tr class="row-first">
                   <th scope="col">STT</th>
-                  <th scope="col">Mã HV</th>
-                  <th scope="col">Tên học viên</th>
+                  <th scope="col">IDSinh Viên </th>
+                  <th scope="col">Tên sinh viên</th>
+                  <th scope="col">Lớp</th>
                   <th scope="col">Có mặt(V)<br>Vắng mặt(Bỏ trống)</th>
                   <th scope="col">Ghi chú</th>
                 </tr>
@@ -85,6 +81,7 @@
                   <td width="10">1</td>
                   <td width="100">CCNA0001</td>
                   <td width="200">Khoa Công nghệ thông tin</td>
+                  <td width="200">Th1</td>
                   <td width="132" align="center">
                   <input type="checkbox" name="check_diemdanh" checked="true" />
                   </td>
