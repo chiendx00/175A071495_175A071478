@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    
+}
+.logo{
+    width: 50%;
+    text-align: left;
+}
+.header_right{
+    width: 50%;
+    text-align: right;
+    float: right;
+}
+.row2{
+    color: white;
+}
+.item-nav{
+    margin-left: 7px;
+}
